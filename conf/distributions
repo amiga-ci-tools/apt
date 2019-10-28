@@ -4,4 +4,3 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: example repo
-SignWith: default
