@@ -1,0 +1,19 @@
+Origin: amiga-ci-tools.github.io/apt
+Label: amiga-ci-tools.github.io/apt
+Codename: stable
+Date: Mon, 28 Oct 2019 11:01:30 UTC
+Architectures: amd64
+Components: main
+Description: example repo
+MD5Sum:
+ 376d58d2681b6d3860a6254268c872ec 465 main/binary-amd64/Packages
+ 67555a448b12665ad8cacf8a7b2c87ca 354 main/binary-amd64/Packages.gz
+ bb230a91751901e59aab091df51bf20d 135 main/binary-amd64/Release
+SHA1:
+ 3fb5e0a46a02e83a726f9278e7e0477dec7f7599 465 main/binary-amd64/Packages
+ edfea24595745dc1388daa0de6866f4480abb4da 354 main/binary-amd64/Packages.gz
+ facc3407b1dccde9eb58470806599babf3cf9d2d 135 main/binary-amd64/Release
+SHA256:
+ 36bf855eb444304961fe3758c9647d955e7c315430a1a66883b8bd824abe5fc2 465 main/binary-amd64/Packages
+ 7006dd9bf8f04e0997c2cc1cfc5f17621910d7cbbcc002715886a5e2788478f9 354 main/binary-amd64/Packages.gz
+ e75b5d6653726f0496221038db0cfb90004042a9f3ce72b74cff808b9609cecc 135 main/binary-amd64/Release

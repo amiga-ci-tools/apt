@@ -1,0 +1,5 @@
+Component: main
+Origin: amiga-ci-tools.github.io/apt
+Label: amiga-ci-tools.github.io/apt
+Architecture: amd64
+Description: example repo
