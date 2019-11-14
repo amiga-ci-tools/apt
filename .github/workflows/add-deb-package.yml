@@ -1,0 +1,30 @@
+name: Add deb package
+
+on: repository_dispatch
+
+jobs:
+  add-deb-package:
+    name: Add deb package
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v1
+      - name: install prerequisites
+        run: sudo apt-get -y install reprepro wget gnupg2
+      - name: download deb package from GitHub release
+        run: |
+          wget ${{ github.event.client_payload.download_url }} -O package.tgz
+          tar -xvf package.tgz
+      - name: Add package to apt repo
+        run: |
+          echo "${{ secrets.REPOSITORY_SIGNING_PRIVATE_KEY }}" | gpg2 --import
+          (cd docs && reprepro includedeb stable `find ../*.deb`) && rm package.tgz && rm *.deb
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'Amiga CI Tools Apt Publisher'
+          git config --global user.email 'amiga.ci.tools.apt.publisher@gmail.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git checkout "${GITHUB_REF:11}"
+          git add -A docs
+          git commit -m "Added ${{ github.event.client_payload.download_url }}"
+          git push
