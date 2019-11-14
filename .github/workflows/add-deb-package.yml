@@ -1,6 +1,8 @@
 name: Add deb package
 
-on: repository_dispatch
+on:
+  repository_dispatch:
+    types: [add-deb-package]
 
 jobs:
   add-deb-package:
