@@ -1,6 +1,6 @@
 Origin: amiga-ci-tools.github.io/apt
 Label: amiga-ci-tools.github.io/apt
-Codename: stable
+Codename: xenial
 Architectures: amd64
 Components: main
 Description: Amiga CI Tools
