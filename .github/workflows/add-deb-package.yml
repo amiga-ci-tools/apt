@@ -15,12 +15,11 @@ jobs:
         run: sudo apt-get -y install reprepro wget gnupg2
       - name: download deb package from GitHub release
         run: |
-          wget ${{ github.event.client_payload.download_url }} -O package.tgz
-          tar -xvf package.tgz
+          wget ${{ github.event.client_payload.download_url }}
       - name: Add package to apt repo
         run: |
           echo "${{ secrets.REPOSITORY_SIGNING_PRIVATE_KEY }}" | gpg2 --import
-          (cd docs && reprepro includedeb stable `find ../*.deb`) && rm package.tgz && rm *.deb
+          (cd docs && reprepro includedeb stable `find ../*.deb`) && rm ../*.deb
       - name: Commit and push changes
         run: |
           git config --global user.name 'Amiga CI Tools Apt Publisher'
