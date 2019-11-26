@@ -1,0 +1,15 @@
+Package: vasmm68k
+Source: vasmm68k (0.0-0)
+Version: 1.8.6
+Architecture: amd64
+Maintainer: Username <user@email.com>
+Installed-Size: 731
+Priority: optional
+Section: development
+Filename: pool/main/v/vasmm68k/vasmm68k_1.8.6_amd64.deb
+Size: 145056
+SHA256: b1649411aa502c61c1d739f8ad8800a8372b4125a276cdc642cd2809228a5043
+SHA1: 37ad9d301193d4b80fb14d3a6cb14c9a2b150999
+MD5sum: 3168c533b49ea3224ef949869bf38fd7
+Description: vasm (m68k) assembler thingy
+

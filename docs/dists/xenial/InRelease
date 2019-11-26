@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: amiga-ci-tools.github.io/apt
+Label: amiga-ci-tools.github.io/apt
+Codename: xenial
+Date: Tue, 26 Nov 2019 18:22:19 UTC
+Architectures: amd64
+Components: main
+Description: Amiga CI Tools
+MD5Sum:
+ 894f823dd718f059994b8ead82e89d8f 449 main/binary-amd64/Packages
+ 01a423d654ce6d5d3211f397facc7507 342 main/binary-amd64/Packages.gz
+ 87cd9eb34f109ecf9d7e893ab69a95c4 137 main/binary-amd64/Release
+SHA1:
+ 61ac91c192ee59ea363bfe09ace580ebe13c5966 449 main/binary-amd64/Packages
+ 851e1dabe9e06552bafb20a8dee6eb8bc6384698 342 main/binary-amd64/Packages.gz
+ 8fd35deddfa7cd78673c70b11ff8a565347df2d5 137 main/binary-amd64/Release
+SHA256:
+ 5765d9a4f7e99d920dd20aaf144f25bcad8ff83fb38d0f0250d220ed92786e9e 449 main/binary-amd64/Packages
+ 16b9f5cc240fc5f073f80aeb12456d79ef4a1e141afed436d2d4170960cd0cd8 342 main/binary-amd64/Packages.gz
+ 31c1f42c71304b64560d3f393d55c62746e9c83fac77b654b8fc6436e81114ef 137 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE6j56sTtb29eMiKO6kG7j27iRSxEFAl3dbVsACgkQkG7j27iR
+SxFdrw/7BBNmchGx8gsdH9VBPs9+TuRWBujMBKYRA3nQac5lj3w6fGVATW1GTzVe
+ePjWJvHZvWmNtl9TWpEmETpkogRxNBFHr0WJAtaM6Viy/faC6R4QVxAekr49eXkB
+hi/dhNVlsEcvKJ4DR4rHzaEdmE7kI7Mmij7X1o/waOJvh+xc7zf+YK1ZXryIQvw1
+g1nmE9oYfzoIV/ZfdDM/esMhhFyiy2ICu/ckAucRqYM8+cp8T5GTKNVqt13/7exq
+lA6SjBFNZQxOe9R0fSPTfR3xgjBoB/nS20HPd8RefC7YXscSLEzRrHxFtCi5S/C5
+VvqS8PDYATmvJWFPHpruDscVqjGRoSj9SaiobUP6DgXPRrv52JVWfJrQBGQyej8W
+PgspAmEYYLZAhICiuRe7YTpo4HBjhNZYpbPrpyT4NB8dartvxa76c7VtOdWppgOn
+xb+Wkvhdh76rj8n117OT/7+Mcf7LyXalbzGRuqbZGoF6DL2iwIxg0hci7cGv/FA6
+Pv0k2qgtPRzf9uSXZCdGBf8f5c5OTOzuwrb4xkoZMJ58JiYIDqgECoQ5unmzEcTg
+ZhB87Zhb6Qr9Dny8Gg9OcVmrNz3dxvMews547GIxEXxtKHBips8udNnrl/tNsxt0
+GZRr6RpKXMHuRug5uuZWQsi+JN6G25bl69baclhjg9V3CcFvthM=
+=WbcS
+-----END PGP SIGNATURE-----
