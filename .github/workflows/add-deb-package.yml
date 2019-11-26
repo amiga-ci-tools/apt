@@ -19,7 +19,7 @@ jobs:
       - name: Add package to apt repo
         run: |
           echo "${{ secrets.REPOSITORY_SIGNING_PRIVATE_KEY }}" | gpg2 --import
-          (cd docs && reprepro includedeb ${{ github.event.client_payload.distribution }} `find ../*.deb`) && rm ../*.deb
+          (cd docs && reprepro includedeb ${{ github.event.client_payload.distribution }} `find ../*.deb`) && rm *.deb
       - name: Commit and push changes
         run: |
           git config --global user.name 'Amiga CI Tools Apt Publisher'
